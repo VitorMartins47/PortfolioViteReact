@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './Styles.css'
 import linkedin from './assets/linkedin.png'
 import git from './assets/git.png'
 
@@ -13,7 +13,8 @@ function App() {
     <div className='informações'>
 
       <h1 className="nome" >Vitor Havila Ferreira Martins</h1>
-      <h1 className="cargo">DESENVOLVEDOR</h1>
+      <h1 className="cargo">DESENVOLVEDOR </h1>
+      <h1 className='cargo'>FRONTEND</h1>
 
       <div className='divIcone'>
 
