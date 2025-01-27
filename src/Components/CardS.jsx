@@ -3,15 +3,15 @@ import jslogo from '../assets/JavaScriptlogo.png'
 import sqllogo from '../assets/sqllogo.png'
 import '../Styles.css'
 
-function Card(){
+function CardS(){
     return(
         <>
         <div className="card">
             <img alt='React Logo' className='iconeCard' src={reactlogo}></img>
-            <h2>React</h2>
+            <h2>Trabalho em Equipe</h2>
             <p>
-                React foi usado para diversos projetos menores meus, como o RickMortyApi. 
-            Foi usado também para fazer este Portfólio
+                Gosto e tenho facilidade de fazer trabalhos em grupos, me enturmo facilmente.
+                Já realizei varios projetos em time.
             </p>
         </div>
 
@@ -40,4 +40,4 @@ function Card(){
 
 }
 
-export default Card
+export default CardS
