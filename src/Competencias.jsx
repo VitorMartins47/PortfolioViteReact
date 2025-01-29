@@ -2,7 +2,7 @@ import './Styles.css'
 import CardH from './Components/CardH.jsx'
 import CardS from './Components/CardS.jsx'
 
-function SobreMim(){
+function Competencias(){
     return(
 
         <>
@@ -27,4 +27,4 @@ function SobreMim(){
 
 }
 
-export default SobreMim
+export default Competencias

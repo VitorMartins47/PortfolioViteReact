@@ -1,0 +1,19 @@
+
+function Sobremim()
+{
+    return(
+        <>
+        <div className="DivSobremim">
+        <h1 className="TitleSobremim"> SOBRE MIM </h1>
+            <div className="DivImgTextSobre">
+                <p className="PSobremim"></p>
+                <img className="ImgSobremim" src=""></img>
+
+                
+            </div>
+        </div>
+        </>
+    )
+}
+
+export default Sobremim
