@@ -3,7 +3,7 @@ import jslogo from '../assets/JavaScriptlogo.png'
 import sqllogo from '../assets/sqllogo.png'
 import '../Styles.css'
 
-function Card(){
+function CardH(){
     return(
         <>
         <div className="card">
@@ -40,4 +40,4 @@ function Card(){
 
 }
 
-export default Card
+export default CardH

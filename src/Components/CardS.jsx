@@ -7,30 +7,30 @@ function CardS(){
     return(
         <>
         <div className="card">
-            <img alt='React Logo' className='iconeCard' src={reactlogo}></img>
+            <img alt='TeamWork' className='iconeCard' src={reactlogo}></img>
             <h2>Trabalho em Equipe</h2>
             <p>
                 Gosto e tenho facilidade de fazer trabalhos em grupos, me enturmo facilmente.
-                Já realizei varios projetos em time.
+                 Já fiz varios projetos em time.
             </p>
         </div>
 
         <div className="card">
-            <img alt='Java Logo' className='iconeCard' src={jslogo}></img>
-            <h2>JavaScript</h2>
+            <img alt='Criatividade' className='iconeCard' src={jslogo}></img>
+            <h2>Criatividade</h2>
             <p>
-                Principal linguagem de programação dos meus projetos. Já fiz jogos, sites, aplicativos.
-                Tenho muita afinidade com JS
+                Me considero uma pessoa criativa. Já precisei usar de criatividade
+                 para resolver bugs pensando fora da caixa
                 
             </p>
         </div>
 
         <div className="card">
-            <img alt='Sql Logo' className='iconeCard' src={sqllogo}></img>
-            <h2>SQL</h2>
+            <img alt='Liderança' className='iconeCard' src={sqllogo}></img>
+            <h2>Gestão de Pessoas</h2>
             <p>
-            Principal banco de dados usado em meus projetos, por exemplo CrudNode. Sempre que preciso
-            usar banco, uso MySql
+            Quando em liderança de uma equipe, estou sempre motivando e direcionando 
+            minha equipe em busca de produtividade
             </p>
         </div>
 

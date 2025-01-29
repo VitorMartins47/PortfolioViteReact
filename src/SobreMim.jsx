@@ -1,5 +1,6 @@
 import './Styles.css'
-import Card from './Components/Card.jsx'
+import CardH from './Components/CardH.jsx'
+import CardS from './Components/CardS.jsx'
 
 function SobreMim(){
     return(
@@ -8,9 +9,15 @@ function SobreMim(){
 
         <div>
 
-            <h1 className="competencia">COMPETÊNCIAS</h1>
-            <Card/>
+            <h1 className="competencia">HARD SKILLS</h1>
+            <CardH/>
         
+        </div>
+
+        <div>
+            <h1 className='competencia'>SOFT SKILLS</h1>
+            <CardS/>
+
         </div>
 
         </>
